@@ -1,0 +1,37 @@
+:root {
+  --color-primary-gold: #ad974f;
+  --color-primary-gold-dark: #8e793e;
+  --color-secondary-gray: #eaeaea;
+  --color-tertiary-dark: #231f20;
+
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary-gray);
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-gold);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-tertiary-dark);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-gold-dark);
+}
+
+a {
+  color: var(--color-primary-gold);
+}
